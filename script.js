@@ -103,7 +103,7 @@ function computeResult(elements){
         elements.shift();
         elements.shift();
     }
-    return elements[0].toString();
+    return elements[0].toFixed(3).toString();
 }
 
 

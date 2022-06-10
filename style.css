@@ -1,6 +1,7 @@
 body {
-    display: block;
+    display: flex;
     height: auto;
+    justify-content: center;
     padding: 25px 400px;
 }
 
@@ -10,6 +11,7 @@ body {
     padding: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .display{
